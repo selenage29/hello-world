@@ -1,3 +1,2 @@
 # hello-world
-
-This is random code that I wrote.
+Random code stuff that I feel like writing.
