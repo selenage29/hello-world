@@ -1,2 +1,2 @@
 # hello-world
-Random code stuff that I feel like writing.
+Code that I wrote, mostly USACO.
