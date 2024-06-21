@@ -1,3 +1,5 @@
+//2024 December USACO silver 2, full credit
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
