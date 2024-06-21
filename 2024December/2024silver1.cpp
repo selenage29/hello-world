@@ -1,3 +1,5 @@
+//looked at solution
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
