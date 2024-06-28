@@ -1,5 +1,4 @@
 //Bovine Acrobatics
-//looked at solution
 
 #include <iostream>
 #include <algorithm>

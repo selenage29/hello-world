@@ -1,32 +1,30 @@
 //Candy Cane Feast
-//in progress, doesnt work
 #include <iostream>
 
 using namespace std;
 
 int main(){
-    int n, m;
+    int32_t n, m;
     cin >> n >> m;
-    int h[n];
-    int c[m];
+    long long h[n];
+    long long c[m];
     for(int i = 0; i < n; i++){
         cin >> h[i];
     }
-    for(int j = 0; j < m; j++){
-        cin >> c[j];
+    for(int i = 0; i < m; i++){
+        cin >> c[i];
     }
     for(int k = 0; k < m; k++){
-        int b = 0;
+        long long b = 0;
         for (int i = 0; i < n; i++){
             if (h[i]>=c[k]){
                 h[i]+=c[k]-b;
-                b=c[k];
                 break;
             }
             if (h[i]<=b){
                 continue;
             }
-            int temp = h[i];
+            long long temp = h[i];
             h[i]+=h[i]-b;
             b=temp;
         }
