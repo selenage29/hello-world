@@ -16,8 +16,8 @@ int cap;
 bool assigned;
 };
 
-r room[100000];
-vector<int> v[100000];
+r room[100001];
+vector<int> v[100001];
 
 void assign(int a){
     for(int i = 0; i < v[a].size(); i++){
